@@ -1,4 +1,4 @@
-name: Reusing workflow
+name: Reusing wokflow for website deployment
 on:
   push:
     branches:
