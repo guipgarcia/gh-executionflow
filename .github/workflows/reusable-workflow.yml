@@ -1,0 +1,9 @@
+name: Reusable workflow
+on: workflow_call
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Log deployment message
+        run: echo "Deploying feature..."
